@@ -12,6 +12,12 @@ class graph{
       adj[v].push_back(u);
   }
   printGraph(){
+    list<int> :: iterator it;
+    for(int  i = 0; i < v; i++)
+    {
+      for(it = adj[v].begin(); it != adj[v].end(); it++){
+        cout << *it;
+      }
   }
 }
 int main(){
