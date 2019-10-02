@@ -12,4 +12,6 @@ class graph{
       adj[v].push_back(u);
   }
 int main(){
+  graph g2;
+  g2.addEdge(1,1);
 }
